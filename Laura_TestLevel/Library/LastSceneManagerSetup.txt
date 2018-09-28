@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Laura_Project/Laura_Test.unity
-  isLoaded: 1
-  isActive: 1
