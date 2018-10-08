@@ -226,6 +226,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ChangeToNight.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />
     <Compile Include="Assets\Scripts\Pickupable.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
