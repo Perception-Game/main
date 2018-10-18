@@ -226,6 +226,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Castle\OpenGate.cs" />
+    <Compile Include="Assets\Castle\torch\scripts\Torchelight.cs" />
     <Compile Include="Assets\Cave\Scripts\ChangeGravity.cs" />
     <Compile Include="Assets\Cave\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Cave\Scripts\ResetCharacter.cs" />
@@ -239,6 +241,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cave\Lava shader\Lava.shader" />
+    <None Include="Assets\Castle\torch\readme.txt" />
     <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
     <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />

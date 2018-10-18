@@ -284,6 +284,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cave\Lava shader\Lava.shader" />
+    <None Include="Assets\Castle\torch\readme.txt" />
     <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
     <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
