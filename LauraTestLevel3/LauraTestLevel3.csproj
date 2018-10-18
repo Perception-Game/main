@@ -227,7 +227,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cave\Scripts\ChangeGravity.cs" />
+    <Compile Include="Assets\Cave\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Cave\Scripts\ResetCharacter.cs" />
+    <Compile Include="Assets\Cave\Scripts\ResetCharCheckPointOne.cs" />
     <Compile Include="Assets\Cave\Scripts\RockDrop.cs" />
     <Compile Include="Assets\Scripts\ChangeToNight.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />

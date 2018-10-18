@@ -25,8 +25,8 @@ public class RockDrop : MonoBehaviour {
     {
         if (enter)
         {
-            rock.transform.position = new Vector3(-842.95f, 253.11f, -123.08f);
-            if(!played)
+            rock.transform.position = new Vector3(-843.5089f, 255.5852f, -128.6557f);
+            if (!played)
             {
                 source.PlayOneShot(caveIn);
                 played = true;
