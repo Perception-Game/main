@@ -13,10 +13,13 @@ public class OpenGate : MonoBehaviour {
 
     public void OnTriggerEnter(Collider other)
     {
-        for (int x = 0; x < 6; x++)
+        if (other.tag == "Coins")
         {
-            gate.transform.Translate(0, 0, 1);
+            for (int x = 0; x < 5; x++)
+            {
+                gate.transform.Translate(0, 0, -1);
 
+            }
         }
     }
 }
