@@ -13,7 +13,10 @@ public class OpenGate : MonoBehaviour {
 
     public void OnTriggerEnter(Collider other)
     {
-        gate.transform.Translate(0, 0, Time.deltaTime);
-        Debug.Log("works");
+        for (int x = 0; x < 6; x++)
+        {
+            gate.transform.Translate(0, 0, 1);
+
+        }
     }
 }
