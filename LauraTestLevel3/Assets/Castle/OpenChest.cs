@@ -15,7 +15,6 @@ public class OpenChest : MonoBehaviour {
     {
         if (other.tag == "Key")
         {
-            Debug.Log("yes");
             Animator open = chest.GetComponent<Animator>();
             open.enabled = true;
         }
