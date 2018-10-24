@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Clickable
+  - Yellow
+  - Red
+  - Blue
   layers:
   - Default
   - TransparentFX
