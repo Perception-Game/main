@@ -13,8 +13,9 @@ TagManager:
   - Chest
   - Key1
   - Wall
-  - Dragon
   - FinalDoor
+  - Dragon1
+  - Dragon2
   layers:
   - Default
   - TransparentFX
