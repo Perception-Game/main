@@ -5,8 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Clickable
+<<<<<<< HEAD
   - Rock
   - Gate
+=======
+  - Yellow
+  - Red
+  - Blue
+>>>>>>> Laura_Desert
   layers:
   - Default
   - TransparentFX
