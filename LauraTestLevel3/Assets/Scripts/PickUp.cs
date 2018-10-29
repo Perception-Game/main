@@ -69,9 +69,11 @@ public class PickUp : MonoBehaviour
                 Pickupable p = hit.collider.GetComponent<Pickupable>();
                 if (p != null)
                 {
+                    float armLength = 5; // the arm length of the character, or where the object travels to after grabbing
                     float dis = Vector3.Distance(p.transform.position, transform.position);//this calculates the distnce the object is from the player
-                    dis = (1f / (dis * .5f));//You're goig to scale the object by this number
-                    p.transform.localScale = transform.localScale * dis;//Actually scaling the object
+                    float disDiff = armLength / dis; // the delta variable of the change in distance
+                    p.transform.localScale = p.transform.localScale * disDiff;//Scale object by delta
+                    p.transform.position = new Vector3(0, 0, armLength); // Bring the object to the armlength
                     carryingObject = true;
                     pickedUpObject = p.gameObject;
 
