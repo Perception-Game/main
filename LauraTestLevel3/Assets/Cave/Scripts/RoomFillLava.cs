@@ -55,7 +55,7 @@ public class RoomFillLava : MonoBehaviour {
  //   }//////////////
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Rock")
+        if (other.gameObject.tag == "Player")
         {
             blocked = false;
         }
