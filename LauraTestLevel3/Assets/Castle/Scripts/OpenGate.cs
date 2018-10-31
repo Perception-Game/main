@@ -35,7 +35,7 @@ public class OpenGate : MonoBehaviour
             GameObject key = GameObject.FindGameObjectWithTag("Key1");
             Renderer rend = key.GetComponent<Renderer>();
             rend.enabled = true;
-            Destroy(GameObject.FindGameObjectWithTag("Sword"));
+         //   Destroy(GameObject.FindGameObjectWithTag("Sword"));
         }
     }
 }

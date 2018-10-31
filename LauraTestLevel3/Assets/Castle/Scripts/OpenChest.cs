@@ -18,8 +18,8 @@ public class OpenChest : MonoBehaviour {
             Animator open = chest.GetComponent<Animator>();
             open.enabled = true;
             GameObject key = GameObject.FindGameObjectWithTag("Key1");
-            Renderer rend = key.GetComponent<Renderer>();
-            rend.enabled = false;
+        //    Renderer rend = key.GetComponent<Renderer>();
+       //     rend.enabled = false;
 
         }
 

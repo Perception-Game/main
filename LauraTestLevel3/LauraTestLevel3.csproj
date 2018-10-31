@@ -227,7 +227,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Castle\Scripts\Button.cs" />
-    <Compile Include="Assets\Castle\Scripts\Cheat.cs" />
     <Compile Include="Assets\Castle\Scripts\Final_Door.cs" />
     <Compile Include="Assets\Castle\Scripts\Fire.cs" />
     <Compile Include="Assets\Castle\Scripts\OpenChest.cs" />
