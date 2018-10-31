@@ -16,6 +16,7 @@ TagManager:
   - FinalDoor
   - Dragon1
   - Dragon2
+  - Fire
   layers:
   - Default
   - TransparentFX
