@@ -28,17 +28,20 @@ public class DesertPuzzle : MonoBehaviour {
 	
 	void Update () {
         //check if red is in place
-        if ((redObject.transform.position.y >= redSpot.position.y) &&(redObject.transform.position.x >= redSpot.position.x))
+        float redDistance = Vector3.Distance(redSpot.position, redObject.transform.position);//calculate distance between spot and object
+        if ((redObject.transform.position.y >= redSpot.position.y) &&(redObject.transform.position.x >= redSpot.position.x) && (redDistance < 3f))
         {
             redSolved = true;
         }
         //check if blue is in place
-        if ((blueObject.transform.position.y >= blueSpot.position.y) && (blueObject.transform.position.x >= blueSpot.position.x))
+        float blueDistance = Vector3.Distance(blueSpot.position, blueObject.transform.position);//calculate distance between spot and object
+        if ((blueObject.transform.position.y >= blueSpot.position.y) && (blueObject.transform.position.x >= blueSpot.position.x) && (blueDistance < 3f))
         {
            blueSolved = true;
         }
         //check if yellow is in place
-        if ((yellowObject.transform.position.y >= yellowSpot.position.y) && (yellowObject.transform.position.x >= yellowSpot.position.x))
+        float yellowDistance = Vector3.Distance(yellowSpot.position, yellowObject.transform.position);//calculate distance between spot and object
+        if ((yellowObject.transform.position.y >= yellowSpot.position.y) && (yellowObject.transform.position.x >= yellowSpot.position.x) && (yellowDistance < 3f))
         {
             yellowSolved = true;
         }

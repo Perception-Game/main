@@ -70,8 +70,8 @@ public class PickUp : MonoBehaviour
                 if (p != null)
                 {
                     float dis = Vector3.Distance(p.transform.position, transform.position);//this calculates the distnce the object is from the player
-                    dis = (1f / (dis * .5f));//You're goig to scale the object by this number
-                    p.transform.localScale = transform.localScale * dis;//Actually scaling the object
+                    dis = (1f / (dis * .3f));//You're goig to scale the object by this number
+                    p.transform.localScale = p.transform.localScale * dis;//Actually scaling the object
                     carryingObject = true;
                     pickedUpObject = p.gameObject;
 
