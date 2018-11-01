@@ -226,7 +226,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Castle\OpenGate.cs" />
+    <Compile Include="Assets\Castle\Scripts\Button.cs" />
+    <Compile Include="Assets\Castle\Scripts\Final_Door.cs" />
+    <Compile Include="Assets\Castle\Scripts\Fire.cs" />
+    <Compile Include="Assets\Castle\Scripts\OpenChest.cs" />
+    <Compile Include="Assets\Castle\Scripts\OpenGate.cs" />
     <Compile Include="Assets\Castle\torch\scripts\Torchelight.cs" />
     <Compile Include="Assets\Cave\Scripts\ChangeGravity.cs" />
     <Compile Include="Assets\Cave\Scripts\ChangeUnderLava.cs" />
@@ -292,6 +296,8 @@
     <Compile Include="Assets\Scripts\YellowGlow.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Castle\3DForge\Fantasy_Interiors\Villages_&amp;_Towns\Documents\Village_Interiors_User_Guid_v1.3.txt" />
+    <None Include="Assets\Castle\Models\Key\readME keys.txt" />
     <None Include="Assets\Castle\torch\readme.txt" />
     <None Include="Assets\Cave\Lava shader\Lava.shader" />
     <None Include="Assets\Castle\torch\readme.txt" />

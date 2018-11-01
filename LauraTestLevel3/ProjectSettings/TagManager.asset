@@ -10,6 +10,17 @@ TagManager:
   - Yellow
   - Red
   - Blue
+  - Coins
+  - Door
+  - Sword
+  - Key
+  - Chest
+  - Key1
+  - Wall
+  - FinalDoor
+  - Dragon1
+  - Dragon2
+  - Fire
   layers:
   - Default
   - TransparentFX
