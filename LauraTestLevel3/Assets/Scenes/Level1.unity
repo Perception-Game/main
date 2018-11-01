@@ -270,7 +270,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 1174283905}
   m_GameObject: {fileID: 328746061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 531.5, y: 280, z: 0}
+  m_LocalPosition: {x: 272.5, y: 263, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1926820846}
@@ -1363,6 +1363,8 @@ GameObject:
   - component: {fileID: 1529756368}
   - component: {fileID: 1529756367}
   - component: {fileID: 1529756366}
+  - component: {fileID: 1529756371}
+  - component: {fileID: 1529756370}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -1411,10 +1413,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1529756365}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -1438,6 +1440,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1529756370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1529756365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f77ecce78f1af41a506a49414eccf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portal: {fileID: 1529756365}
+  nextLvl: Cave
+--- !u!114 &1529756371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1529756365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7684bd26d0bc4409da3e0edce4bd2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1659076078
 GameObject:
   m_ObjectHideFlags: 0
