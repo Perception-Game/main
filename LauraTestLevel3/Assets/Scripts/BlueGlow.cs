@@ -4,7 +4,7 @@ using UnityEngine;
 /*
  * Public class BlueGlow
  * This script makes the blue lion statue glow ble when the blue item is brought to it.
- * This is to be attached to the BlueSphere Object. 
+ * This is to be attached to the BlueSphere Object.
  * Made by Laura Amoroso
  * */
 public class BlueGlow : MonoBehaviour

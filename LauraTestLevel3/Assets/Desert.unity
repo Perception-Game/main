@@ -364,8 +364,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1 &34427272
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,8 +472,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57edae4806dfc344799fab9f027987be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   blueSpot: {fileID: 1314663592}
 --- !u!1 &96241508 stripped
 GameObject:
@@ -946,8 +946,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!65 &168843386
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1018,8 +1018,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!136 &188977894
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1877,8 +1877,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!54 &374306265
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1921,8 +1921,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!65 &415373177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1977,8 +1977,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!54 &468302650
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2243,8 +2243,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1 &532449653
 GameObject:
   m_ObjectHideFlags: 0
@@ -3244,8 +3244,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a9a41db972c74746a13c743b31d311f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   redSpot: {fileID: 769078812}
   redSphere: {fileID: 2094339764}
   blueSpot: {fileID: 1314663592}
@@ -3463,8 +3463,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!54 &821993195
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4601,8 +4601,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!54 &1149501288
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4910,8 +4910,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1001 &1255464604
 Prefab:
   m_ObjectHideFlags: 0
@@ -4954,7 +4954,7 @@ Prefab:
     - target: {fileID: 33221350318382300, guid: e66f91b06bf0f2d4b94b69b7080ce58a,
         type: 2}
       propertyPath: m_Mesh
-      value: 
+      value:
       objectReference: {fileID: 4300000, guid: 435b7e69285c59b4588a39e3308b6576, type: 3}
     - target: {fileID: 1266462133243378, guid: e66f91b06bf0f2d4b94b69b7080ce58a, type: 2}
       propertyPath: m_Name
@@ -5557,8 +5557,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91539992961d96e4db89f925f9d9cb9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1 &1555229442 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 83b754bd08f5a1242a0bc7fcbb954106, type: 3}
@@ -5572,8 +5572,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!65 &1555229444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5841,8 +5841,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1001 &1704113978
 Prefab:
   m_ObjectHideFlags: 0
@@ -6640,8 +6640,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf272d0bd524aef408b95dc641829387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   yellowSpot: {fileID: 1030291575}
 --- !u!1 &1922153002
 GameObject:
@@ -7249,8 +7249,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a700898f2e6bdb409ca4cf3348b7c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!64 &2071644762
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7476,8 +7476,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4dacc6624cea46f4f9d8650c27aa1ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   redSpot: {fileID: 769078812}
 --- !u!1 &2096022268
 GameObject:
@@ -7671,7 +7671,7 @@ Prefab:
     - target: {fileID: 33134843051995774, guid: 682768b9e639d664c9300ba33ee514b5,
         type: 2}
       propertyPath: m_Mesh
-      value: 
+      value:
       objectReference: {fileID: 4300000, guid: 435b7e69285c59b4588a39e3308b6576, type: 3}
     - target: {fileID: 1158419739545872, guid: 682768b9e639d664c9300ba33ee514b5, type: 2}
       propertyPath: m_Name

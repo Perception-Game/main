@@ -4,7 +4,7 @@ using UnityEngine;
 /*
  * Public class YellowGlow
  * This script makes the yellow lion statue glow yellow when the yellow item is brought to it.
- * This is to be attached to the yellowSphere Object. 
+ * This is to be attached to the yellowSphere Object.
  * Made by Laura Amoroso
  * */
 public class YellowGlow : MonoBehaviour

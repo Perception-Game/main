@@ -6,7 +6,7 @@ public class DesertPuzzle : MonoBehaviour {
 
     GameObject redObject;
     public Transform redSpot;
-    public Transform redSphere; 
+    public Transform redSphere;
     bool redSolved = false;
 
     GameObject blueObject;
@@ -20,12 +20,12 @@ public class DesertPuzzle : MonoBehaviour {
      void Start () {
         redSolved = false;
         blueSolved = false;
-        yellowSolved = false; 
+        yellowSolved = false;
         redObject = GameObject.FindWithTag("Red");
         blueObject = GameObject.FindWithTag("Blue");
         yellowObject = GameObject.FindWithTag("Yellow");
     }
-	
+
 	void Update () {
         //check if red is in place
         float redDistance = Vector3.Distance(redSpot.position, redObject.transform.position);//calculate distance between spot and object
