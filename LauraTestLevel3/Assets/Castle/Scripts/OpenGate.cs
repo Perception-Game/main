@@ -32,7 +32,7 @@ public class OpenGate : MonoBehaviour
             {
                 door.transform.Rotate(0, 1, 0);
             }
-            GameObject key = GameObject.FindGameObjectWithTag("Key1");
+            GameObject key = GameObject.FindGameObjectWithTag("Key");
             Renderer rend = key.GetComponent<Renderer>();
             rend.enabled = true;
          //   Destroy(GameObject.FindGameObjectWithTag("Sword"));
