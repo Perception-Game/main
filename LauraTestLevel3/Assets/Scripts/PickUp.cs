@@ -11,6 +11,8 @@ using UnityEngine;
  * The player can drop the object by pressing E again to release the object.
  * The script "Pickupable" MUST be attached to any object you wish to pick up.
  * This script MUST be attached to the PLAYER object for it to be used, do NOT attach this script to the object!!
+ * ADDED 11/9/2018--Gravity scripts on lines 53 and 98. These chages are for any object to be picked up and not glich around the screen.
+ * The objects that get MUST have a rigidbody with gravity enabled. 
  */
 public class PickUp : MonoBehaviour
 {
@@ -49,6 +51,7 @@ public class PickUp : MonoBehaviour
     //Carry an object
     void Carry(GameObject o)
     {
+        o.GetComponent<Rigidbody>().useGravity = false;//Added to remove gravity gliches on object 
         o.transform.position = Vector3.Lerp(o.transform.position, mainCamera.transform.position + mainCamera.transform.forward * distance, Time.deltaTime * smooth);
     }
 
@@ -93,6 +96,7 @@ public class PickUp : MonoBehaviour
     //drop an object
     void DropObject()
     {
+        pickedUpObject.GetComponent<Rigidbody>().useGravity = true;//turn gravity back
         carryingObject = false;
         pickedUpObject = null;
     }

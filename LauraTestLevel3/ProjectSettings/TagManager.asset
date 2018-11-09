@@ -21,6 +21,7 @@ TagManager:
   - Dragon1
   - Dragon2
   - Fire
+  - Floor
   layers:
   - Default
   - TransparentFX
