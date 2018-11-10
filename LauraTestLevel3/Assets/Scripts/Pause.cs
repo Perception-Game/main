@@ -5,16 +5,17 @@ using UnityEngine;
 /*
  * public class Pause
  * Pausing the game when player hits P. 
- * Attach this code to any game object then drag Player object into it. 
+ * Attach this code to any game object then drag PauseGUI or Canvas object into it. 
  * made by Laura Amoroso
  * */
 
 public class Pause : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
+ 
     void Start()
     {
-        pausePanel.SetActive(true);
+        pausePanel.SetActive(false);
     }
     void Update()
     {
@@ -22,6 +23,7 @@ public class Pause : MonoBehaviour
         {
             if (!pausePanel.activeInHierarchy)
             {
+
                 PauseGame();
             }
             else if(pausePanel.activeInHierarchy)
@@ -32,15 +34,18 @@ public class Pause : MonoBehaviour
     }
     private void PauseGame()
     {
-        Time.timeScale = 0;//timescale is set to 0 to diable scripts
         pausePanel.SetActive(true);
+        Time.timeScale = 0;//timescale is set to 0 to diable scripts
+        
+
         
 
     }
     private void ContinueGame()
     {
-        Time.timeScale = 1; //scripts work again
         pausePanel.SetActive(false);
+        Time.timeScale = 1; //scripts work again
+        
         
     }
 }
