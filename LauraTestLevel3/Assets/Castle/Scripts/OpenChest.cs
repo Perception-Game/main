@@ -5,8 +5,9 @@ using UnityEngine;
 public class OpenChest : MonoBehaviour {
 
     GameObject chest;
-	// Use this for initialization
-	void Start () {
+    public PickUp pick;
+    // Use this for initialization
+    void Start () {
         chest = GameObject.FindGameObjectWithTag("Chest");
 	}
 
@@ -18,8 +19,8 @@ public class OpenChest : MonoBehaviour {
             Animator open = chest.GetComponent<Animator>();
             open.enabled = true;
             GameObject key = GameObject.FindGameObjectWithTag("Key");
-        //    Renderer rend = key.GetComponent<Renderer>();
-       //     rend.enabled = false;
+            pick.DropObject();
+            Destroy(key);
 
         }
 

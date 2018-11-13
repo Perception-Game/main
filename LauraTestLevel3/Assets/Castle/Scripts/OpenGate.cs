@@ -7,6 +7,7 @@ public class OpenGate : MonoBehaviour
 
     GameObject gate;
     GameObject door;
+    public PickUp pick;
 
     // Use this for initialization
     void Start()
@@ -35,7 +36,8 @@ public class OpenGate : MonoBehaviour
             GameObject key = GameObject.FindGameObjectWithTag("Key");
             Renderer rend = key.GetComponent<Renderer>();
             rend.enabled = true;
-         //   Destroy(GameObject.FindGameObjectWithTag("Sword"));
+            pick.DropObject();
+            Destroy(GameObject.FindGameObjectWithTag("Sword"));
         }
     }
 }

@@ -94,7 +94,7 @@ public class PickUp : MonoBehaviour
     }
 
     //drop an object
-    void DropObject()
+    public void DropObject()
     {
         pickedUpObject.GetComponent<Rigidbody>().useGravity = true;//turn gravity back
         carryingObject = false;
