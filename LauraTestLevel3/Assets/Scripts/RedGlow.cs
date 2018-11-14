@@ -20,7 +20,7 @@ public class RedGlow : MonoBehaviour {
 	void Update () {
         //check if object is close
         float distance = Vector3.Distance(transform.position, redObject.transform.position);//calculate distance between spot and object
-        Debug.Log(distance);
+       
         //check if red is in place
         if ((redObject.transform.position.y >= redSpot.position.y) && (redObject.transform.position.x >= redSpot.position.x) && (distance < 3f))
         {

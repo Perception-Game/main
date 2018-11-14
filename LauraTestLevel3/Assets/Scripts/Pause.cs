@@ -11,7 +11,8 @@ using UnityEngine;
 
 public class Pause : MonoBehaviour
 {
-    [SerializeField] private GameObject pausePanel;
+    [SerializeField] private GameObject pausePanel;//PauseGUI
+    
  
     void Start()
     {
@@ -35,6 +36,7 @@ public class Pause : MonoBehaviour
     private void PauseGame()
     {
         pausePanel.SetActive(true);
+     
         Time.timeScale = 0;//timescale is set to 0 to diable scripts
         
 
