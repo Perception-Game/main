@@ -51,6 +51,8 @@ public class PickUp : MonoBehaviour
     //Carry an object
     void Carry(GameObject o)
     {
+        if (pickedUpObject == null)
+            D();
         o.GetComponent<Rigidbody>().useGravity = false;//Added to remove gravity gliches on object 
         o.transform.position = Vector3.Lerp(o.transform.position, mainCamera.transform.position + mainCamera.transform.forward * distance, Time.deltaTime * smooth);
     }
@@ -100,4 +102,12 @@ public class PickUp : MonoBehaviour
         carryingObject = false;
         pickedUpObject = null;
     }
+
+    public void D()
+    {
+        
+        carryingObject = false;
+        pickedUpObject = null;
+    }
+
 }

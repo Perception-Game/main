@@ -3845,6 +3845,7 @@ GameObject:
   - component: {fileID: 41639883}
   - component: {fileID: 41639882}
   - component: {fileID: 41639881}
+  - component: {fileID: 41639884}
   m_Layer: 0
   m_Name: goldCoins (24)
   m_TagString: Untagged
@@ -3924,6 +3925,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 41639879}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &41639884
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41639879}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.99903035, z: -0.446486}
 --- !u!1 &42164403
 GameObject:
   m_ObjectHideFlags: 0
@@ -8787,7 +8801,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
@@ -9006,7 +9020,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 139048647}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 155.80704, z: 0}
+  m_LocalPosition: {x: 0, y: 564.7647, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1393474152}
@@ -9736,6 +9750,7 @@ GameObject:
   - component: {fileID: 165154337}
   - component: {fileID: 165154336}
   - component: {fileID: 165154335}
+  - component: {fileID: 165154338}
   m_Layer: 0
   m_Name: goldCoins (10)
   m_TagString: Untagged
@@ -9815,6 +9830,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 165154333}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &165154338
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 165154333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990151, z: -0.446486}
 --- !u!1 &165372072
 GameObject:
   m_ObjectHideFlags: 0
@@ -11659,6 +11687,7 @@ GameObject:
   - component: {fileID: 327282115}
   - component: {fileID: 327282114}
   - component: {fileID: 327282113}
+  - component: {fileID: 327282116}
   m_Layer: 0
   m_Name: goldCoins (2)
   m_TagString: Untagged
@@ -11738,6 +11767,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 327282111}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &327282116
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 327282111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990151, z: -0.446486}
 --- !u!1 &331674307
 GameObject:
   m_ObjectHideFlags: 0
@@ -12234,6 +12276,7 @@ GameObject:
   - component: {fileID: 363638083}
   - component: {fileID: 363638082}
   - component: {fileID: 363638081}
+  - component: {fileID: 363638084}
   m_Layer: 0
   m_Name: goldCoins (26)
   m_TagString: Untagged
@@ -12313,6 +12356,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 363638079}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &363638084
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 363638079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990151, z: -0.44647074}
 --- !u!1 &369825437
 GameObject:
   m_ObjectHideFlags: 0
@@ -13237,6 +13293,7 @@ GameObject:
   - component: {fileID: 443609287}
   - component: {fileID: 443609286}
   - component: {fileID: 443609285}
+  - component: {fileID: 443609288}
   m_Layer: 0
   m_Name: goldCoins (21)
   m_TagString: Untagged
@@ -13316,6 +13373,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 443609283}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &443609288
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443609283}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990456, z: -0.446486}
 --- !u!1 &445105602
 GameObject:
   m_ObjectHideFlags: 0
@@ -13419,6 +13489,7 @@ GameObject:
   - component: {fileID: 446515553}
   - component: {fileID: 446515552}
   - component: {fileID: 446515551}
+  - component: {fileID: 446515554}
   m_Layer: 0
   m_Name: goldCoins (12)
   m_TagString: Untagged
@@ -13498,6 +13569,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446515549}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &446515554
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446515549}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99903035, z: -0.446486}
 --- !u!1 &451156704
 GameObject:
   m_ObjectHideFlags: 0
@@ -13598,6 +13682,7 @@ GameObject:
   - component: {fileID: 454285091}
   - component: {fileID: 454285090}
   - component: {fileID: 454285089}
+  - component: {fileID: 454285092}
   m_Layer: 0
   m_Name: goldCoins (28)
   m_TagString: Untagged
@@ -13677,6 +13762,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 454285087}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &454285092
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 454285087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990456, z: -0.44647074}
 --- !u!1 &461138561
 GameObject:
   m_ObjectHideFlags: 0
@@ -13884,6 +13982,7 @@ GameObject:
   - component: {fileID: 469720193}
   - component: {fileID: 469720192}
   - component: {fileID: 469720191}
+  - component: {fileID: 469720194}
   m_Layer: 0
   m_Name: goldCoins (6)
   m_TagString: Untagged
@@ -13963,6 +14062,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 469720189}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &469720194
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 469720189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.99903035, z: -0.446486}
 --- !u!1 &477737852
 GameObject:
   m_ObjectHideFlags: 0
@@ -14655,6 +14767,7 @@ GameObject:
   - component: {fileID: 540647507}
   - component: {fileID: 540647506}
   - component: {fileID: 540647505}
+  - component: {fileID: 540647508}
   m_Layer: 0
   m_Name: goldCoins (23)
   m_TagString: Untagged
@@ -14734,6 +14847,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 540647503}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &540647508
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 540647503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990456, z: -0.446486}
 --- !u!1 &548883827
 GameObject:
   m_ObjectHideFlags: 0
@@ -14746,6 +14872,7 @@ GameObject:
   - component: {fileID: 548883831}
   - component: {fileID: 548883830}
   - component: {fileID: 548883829}
+  - component: {fileID: 548883832}
   m_Layer: 0
   m_Name: goldCoins (34)
   m_TagString: Untagged
@@ -14825,6 +14952,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 548883827}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &548883832
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 548883827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990151, z: -0.446486}
 --- !u!1 &549344011
 GameObject:
   m_ObjectHideFlags: 0
@@ -15523,6 +15663,7 @@ GameObject:
   - component: {fileID: 575773277}
   - component: {fileID: 575773276}
   - component: {fileID: 575773275}
+  - component: {fileID: 575773278}
   m_Layer: 0
   m_Name: goldCoins (9)
   m_TagString: Untagged
@@ -15602,6 +15743,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 575773273}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &575773278
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 575773273}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99903035, z: -0.446486}
 --- !u!1 &586054412
 GameObject:
   m_ObjectHideFlags: 0
@@ -16341,6 +16495,11 @@ Prefab:
       propertyPath: m_TagString
       value: Sword
       objectReference: {fileID: 0}
+    - target: {fileID: 23000013359577708, guid: 8bf444dfedaaaa44c957208c58125179,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8bf444dfedaaaa44c957208c58125179, type: 2}
   m_IsPrefabParent: 0
@@ -16651,6 +16810,7 @@ GameObject:
   - component: {fileID: 684482394}
   - component: {fileID: 684482393}
   - component: {fileID: 684482392}
+  - component: {fileID: 684482395}
   m_Layer: 0
   m_Name: goldCoins (39)
   m_TagString: Untagged
@@ -16730,6 +16890,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 684482390}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &684482395
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684482390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.99903035, z: -0.44647074}
 --- !u!1 &690607509
 GameObject:
   m_ObjectHideFlags: 0
@@ -16742,6 +16915,7 @@ GameObject:
   - component: {fileID: 690607513}
   - component: {fileID: 690607512}
   - component: {fileID: 690607511}
+  - component: {fileID: 690607514}
   m_Layer: 0
   m_Name: goldCoins (15)
   m_TagString: Untagged
@@ -16821,6 +16995,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 690607509}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &690607514
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 690607509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99903035, z: -0.446486}
 --- !u!1 &708631088
 GameObject:
   m_ObjectHideFlags: 0
@@ -18050,6 +18237,7 @@ GameObject:
   - component: {fileID: 790293713}
   - component: {fileID: 790293712}
   - component: {fileID: 790293711}
+  - component: {fileID: 790293714}
   m_Layer: 0
   m_Name: goldCoins (30)
   m_TagString: Untagged
@@ -18129,6 +18317,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 790293709}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &790293714
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 790293709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990151, z: -0.44650126}
 --- !u!1 &791205211
 GameObject:
   m_ObjectHideFlags: 0
@@ -18216,6 +18417,8 @@ GameObject:
   - component: {fileID: 796654323}
   - component: {fileID: 796654322}
   - component: {fileID: 796654321}
+  - component: {fileID: 796654325}
+  - component: {fileID: 796654324}
   m_Layer: 0
   m_Name: goldCoins (19)
   m_TagString: Untagged
@@ -18295,6 +18498,32 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 796654319}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &796654324
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 796654319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332725
+  m_Height: 4.142894
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99901515, z: -0.44651645}
+--- !u!136 &796654325
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 796654319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332725
+  m_Height: 4.142894
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99901515, z: -0.44651645}
 --- !u!1 &796986039
 GameObject:
   m_ObjectHideFlags: 0
@@ -18636,7 +18865,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 807313710}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 370.5, y: 299, z: 0}
+  m_LocalPosition: {x: 170, y: 311, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1568896299}
@@ -18933,6 +19162,7 @@ GameObject:
   - component: {fileID: 830968875}
   - component: {fileID: 830968874}
   - component: {fileID: 830968873}
+  - component: {fileID: 830968876}
   m_Layer: 0
   m_Name: goldCoins (25)
   m_TagString: Untagged
@@ -19012,6 +19242,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 830968871}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &830968876
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 830968871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.99899983, z: -0.44647074}
 --- !u!1 &838998784
 GameObject:
   m_ObjectHideFlags: 0
@@ -19024,6 +19267,7 @@ GameObject:
   - component: {fileID: 838998788}
   - component: {fileID: 838998787}
   - component: {fileID: 838998786}
+  - component: {fileID: 838998789}
   m_Layer: 0
   m_Name: goldCoins (1)
   m_TagString: Untagged
@@ -19103,6 +19347,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 838998784}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &838998789
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 838998784}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99903035, z: -0.446486}
 --- !u!1 &845094508
 GameObject:
   m_ObjectHideFlags: 0
@@ -19760,6 +20017,7 @@ GameObject:
   - component: {fileID: 894602765}
   - component: {fileID: 894602764}
   - component: {fileID: 894602763}
+  - component: {fileID: 894602766}
   m_Layer: 0
   m_Name: goldCoins (5)
   m_TagString: Untagged
@@ -19839,6 +20097,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 894602761}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &894602766
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 894602761}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990151, z: -0.446486}
 --- !u!1 &895280064
 GameObject:
   m_ObjectHideFlags: 0
@@ -19851,6 +20122,7 @@ GameObject:
   - component: {fileID: 895280068}
   - component: {fileID: 895280067}
   - component: {fileID: 895280066}
+  - component: {fileID: 895280069}
   m_Layer: 0
   m_Name: goldCoins (31)
   m_TagString: Untagged
@@ -19930,6 +20202,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 895280064}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &895280069
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 895280064}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.142894
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990151, z: -0.44649357}
 --- !u!1 &895833624
 GameObject:
   m_ObjectHideFlags: 0
@@ -20285,6 +20570,7 @@ GameObject:
   - component: {fileID: 916464015}
   - component: {fileID: 916464014}
   - component: {fileID: 916464013}
+  - component: {fileID: 916464016}
   m_Layer: 0
   m_Name: goldCoins (29)
   m_TagString: Untagged
@@ -20364,6 +20650,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 916464011}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &916464016
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916464011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990456, z: -0.44650126}
 --- !u!1 &921623076
 GameObject:
   m_ObjectHideFlags: 0
@@ -20809,7 +21108,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 936635041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 121.80704, z: 0}
+  m_LocalPosition: {x: 0, y: 530.7647, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1393474152}
@@ -25868,7 +26167,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1071250959}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2a8cc04cfc01544a824f54a97619339, type: 3}
   m_Name: 
@@ -26311,6 +26610,7 @@ GameObject:
   - component: {fileID: 1118634289}
   - component: {fileID: 1118634288}
   - component: {fileID: 1118634287}
+  - component: {fileID: 1118634290}
   m_Layer: 0
   m_Name: goldCoins (20)
   m_TagString: Untagged
@@ -26390,6 +26690,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1118634285}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1118634290
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1118634285}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.99903035, z: -0.446486}
 --- !u!1001 &1123795440
 Prefab:
   m_ObjectHideFlags: 0
@@ -26781,6 +27094,7 @@ GameObject:
   - component: {fileID: 1148755414}
   - component: {fileID: 1148755413}
   - component: {fileID: 1148755412}
+  - component: {fileID: 1148755415}
   m_Layer: 0
   m_Name: goldCoins (36)
   m_TagString: Untagged
@@ -26860,6 +27174,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1148755410}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1148755415
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1148755410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990456, z: -0.446486}
 --- !u!1 &1161815563
 GameObject:
   m_ObjectHideFlags: 0
@@ -27188,7 +27515,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
@@ -27236,6 +27563,7 @@ GameObject:
   - component: {fileID: 1188450488}
   - component: {fileID: 1188450487}
   - component: {fileID: 1188450486}
+  - component: {fileID: 1188450489}
   m_Layer: 0
   m_Name: goldCoins (14)
   m_TagString: Untagged
@@ -27315,6 +27643,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1188450484}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1188450489
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1188450484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990456, z: -0.446486}
 --- !u!1 &1201319946
 GameObject:
   m_ObjectHideFlags: 0
@@ -27327,6 +27668,7 @@ GameObject:
   - component: {fileID: 1201319950}
   - component: {fileID: 1201319949}
   - component: {fileID: 1201319948}
+  - component: {fileID: 1201319951}
   m_Layer: 0
   m_Name: goldCoins (41)
   m_TagString: Untagged
@@ -27406,6 +27748,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1201319946}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1201319951
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201319946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99903035, z: -0.446486}
 --- !u!1 &1206723328
 GameObject:
   m_ObjectHideFlags: 0
@@ -27700,6 +28055,7 @@ GameObject:
   - component: {fileID: 1233352034}
   - component: {fileID: 1233352033}
   - component: {fileID: 1233352032}
+  - component: {fileID: 1233352035}
   m_Layer: 0
   m_Name: goldCoins (27)
   m_TagString: Untagged
@@ -27779,6 +28135,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1233352030}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1233352035
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1233352030}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99906087, z: -0.44647074}
 --- !u!1 &1247227742
 GameObject:
   m_ObjectHideFlags: 0
@@ -28498,6 +28867,7 @@ GameObject:
   - component: {fileID: 1293008091}
   - component: {fileID: 1293008090}
   - component: {fileID: 1293008089}
+  - component: {fileID: 1293008092}
   m_Layer: 0
   m_Name: goldCoins (35)
   m_TagString: Untagged
@@ -28577,6 +28947,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1293008087}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1293008092
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1293008087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99903035, z: -0.446486}
 --- !u!1 &1296474295
 GameObject:
   m_ObjectHideFlags: 0
@@ -32616,6 +32999,7 @@ GameObject:
   - component: {fileID: 1342618064}
   - component: {fileID: 1342618063}
   - component: {fileID: 1342618062}
+  - component: {fileID: 1342618065}
   m_Layer: 0
   m_Name: goldCoins (4)
   m_TagString: Untagged
@@ -32695,6 +33079,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1342618060}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1342618065
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1342618060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99899983, z: -0.446486}
 --- !u!1 &1352552392
 GameObject:
   m_ObjectHideFlags: 0
@@ -32707,6 +33104,7 @@ GameObject:
   - component: {fileID: 1352552396}
   - component: {fileID: 1352552395}
   - component: {fileID: 1352552394}
+  - component: {fileID: 1352552397}
   m_Layer: 0
   m_Name: goldCoins
   m_TagString: Untagged
@@ -32786,6 +33184,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1352552392}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1352552397
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1352552392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990151, z: -0.446486}
 --- !u!1 &1361282420
 GameObject:
   m_ObjectHideFlags: 0
@@ -36330,6 +36741,7 @@ GameObject:
   - component: {fileID: 1377704137}
   - component: {fileID: 1377704136}
   - component: {fileID: 1377704135}
+  - component: {fileID: 1377704138}
   m_Layer: 0
   m_Name: goldCoins (7)
   m_TagString: Untagged
@@ -36409,6 +36821,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1377704133}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1377704138
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1377704133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.99903035, z: -0.446486}
 --- !u!1 &1383528687
 GameObject:
   m_ObjectHideFlags: 0
@@ -36421,6 +36846,7 @@ GameObject:
   - component: {fileID: 1383528691}
   - component: {fileID: 1383528690}
   - component: {fileID: 1383528689}
+  - component: {fileID: 1383528692}
   m_Layer: 0
   m_Name: goldCoins (8)
   m_TagString: Untagged
@@ -36500,6 +36926,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1383528687}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1383528692
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1383528687}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990151, z: -0.446486}
 --- !u!1 &1383927649
 GameObject:
   m_ObjectHideFlags: 0
@@ -36667,8 +37106,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1393474151}
   m_LocalRotation: {x: -0.0072176056, y: -0.70706993, z: 0.0072176056, w: 0.70706993}
-  m_LocalPosition: {x: 149.05928, y: 150.12544, z: 63.934937}
-  m_LocalScale: {x: 1.0883343, y: 1.0883348, z: 1.0883348}
+  m_LocalPosition: {x: 149.51753, y: 160.02129, z: -172.04272}
+  m_LocalScale: {x: 0.49937072, y: 0.4993709, z: 0.49937093}
   m_Children:
   - {fileID: 139048648}
   - {fileID: 936635042}
@@ -37446,6 +37885,7 @@ GameObject:
   - component: {fileID: 1458597354}
   - component: {fileID: 1458597353}
   - component: {fileID: 1458597352}
+  - component: {fileID: 1458597355}
   m_Layer: 0
   m_Name: goldCoins (38)
   m_TagString: Untagged
@@ -37525,6 +37965,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1458597350}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1458597355
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1458597350}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990151, z: -0.44650126}
 --- !u!1 &1462701141
 GameObject:
   m_ObjectHideFlags: 0
@@ -37537,6 +37990,7 @@ GameObject:
   - component: {fileID: 1462701145}
   - component: {fileID: 1462701144}
   - component: {fileID: 1462701143}
+  - component: {fileID: 1462701146}
   m_Layer: 0
   m_Name: goldCoins (42)
   m_TagString: Untagged
@@ -37616,6 +38070,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1462701141}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1462701146
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462701141}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990151, z: -0.446486}
 --- !u!1 &1463827808
 GameObject:
   m_ObjectHideFlags: 0
@@ -38088,6 +38555,7 @@ GameObject:
   - component: {fileID: 1500901594}
   - component: {fileID: 1500901593}
   - component: {fileID: 1500901592}
+  - component: {fileID: 1500901595}
   m_Layer: 0
   m_Name: goldCoins (16)
   m_TagString: Untagged
@@ -38167,6 +38635,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1500901590}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1500901595
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500901590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.99899983, z: -0.44650126}
 --- !u!1 &1502414977
 GameObject:
   m_ObjectHideFlags: 0
@@ -38477,15 +38958,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 313.49
+      value: 313.61
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 172.37
+      value: 171.85
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 126.86
+      value: 127.25
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.x
@@ -38607,7 +39088,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1532855821}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 919daa3489dadb244a81b2618606724d, type: 3}
   m_Name: 
@@ -38624,6 +39105,7 @@ GameObject:
   - component: {fileID: 1542078807}
   - component: {fileID: 1542078806}
   - component: {fileID: 1542078805}
+  - component: {fileID: 1542078808}
   m_Layer: 0
   m_Name: goldCoins (40)
   m_TagString: Untagged
@@ -38703,6 +39185,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1542078803}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1542078808
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1542078803}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990456, z: -0.44647074}
 --- !u!1001 &1548687733
 Prefab:
   m_ObjectHideFlags: 0
@@ -39842,7 +40337,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
@@ -45415,6 +45910,7 @@ GameObject:
   - component: {fileID: 1791327733}
   - component: {fileID: 1791327732}
   - component: {fileID: 1791327731}
+  - component: {fileID: 1791327734}
   m_Layer: 0
   m_Name: goldCoins (22)
   m_TagString: Untagged
@@ -45494,6 +45990,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1791327729}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1791327734
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791327729}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.99903035, z: -0.446486}
 --- !u!1 &1809482663
 GameObject:
   m_ObjectHideFlags: 0
@@ -45747,6 +46256,7 @@ GameObject:
   - component: {fileID: 1821960028}
   - component: {fileID: 1821960027}
   - component: {fileID: 1821960026}
+  - component: {fileID: 1821960029}
   m_Layer: 0
   m_Name: goldCoins (13)
   m_TagString: Untagged
@@ -45826,6 +46336,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1821960024}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1821960029
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1821960024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.99906087, z: -0.446486}
 --- !u!1 &1822093715
 GameObject:
   m_ObjectHideFlags: 0
@@ -46550,6 +47073,7 @@ GameObject:
   - component: {fileID: 1854939144}
   - component: {fileID: 1854939143}
   - component: {fileID: 1854939142}
+  - component: {fileID: 1854939145}
   m_Layer: 0
   m_Name: goldCoins (18)
   m_TagString: Untagged
@@ -46629,6 +47153,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1854939140}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1854939145
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1854939140}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990151, z: -0.44647074}
 --- !u!1 &1880665868
 GameObject:
   m_ObjectHideFlags: 0
@@ -47358,6 +47895,7 @@ GameObject:
   - component: {fileID: 1920748349}
   - component: {fileID: 1920748348}
   - component: {fileID: 1920748347}
+  - component: {fileID: 1920748350}
   m_Layer: 0
   m_Name: goldCoins (3)
   m_TagString: Untagged
@@ -47437,6 +47975,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1920748345}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1920748350
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1920748345}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990456, z: -0.446486}
 --- !u!1 &1925587253
 GameObject:
   m_ObjectHideFlags: 0
@@ -54489,6 +55040,7 @@ GameObject:
   - component: {fileID: 1937449985}
   - component: {fileID: 1937449984}
   - component: {fileID: 1937449983}
+  - component: {fileID: 1937449986}
   m_Layer: 0
   m_Name: goldCoins (17)
   m_TagString: Untagged
@@ -54568,6 +55120,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1937449981}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1937449986
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937449981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990151, z: -0.44650126}
 --- !u!1 &1938960902
 GameObject:
   m_ObjectHideFlags: 0
@@ -54953,6 +55518,7 @@ GameObject:
   - component: {fileID: 1969950402}
   - component: {fileID: 1969950401}
   - component: {fileID: 1969950400}
+  - component: {fileID: 1969950403}
   m_Layer: 0
   m_Name: goldCoins (32)
   m_TagString: Untagged
@@ -55032,6 +55598,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1969950398}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1969950403
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1969950398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990456, z: -0.446486}
 --- !u!1 &1977183179
 GameObject:
   m_ObjectHideFlags: 0
@@ -55119,6 +55698,7 @@ GameObject:
   - component: {fileID: 1979550690}
   - component: {fileID: 1979550689}
   - component: {fileID: 1979550688}
+  - component: {fileID: 1979550691}
   m_Layer: 0
   m_Name: goldCoins (33)
   m_TagString: Untagged
@@ -55198,6 +55778,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1979550686}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &1979550691
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1979550686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.9990151, z: -0.446486}
 --- !u!1 &1983550686
 GameObject:
   m_ObjectHideFlags: 0
@@ -55485,6 +56078,7 @@ GameObject:
   - component: {fileID: 2031262521}
   - component: {fileID: 2031262520}
   - component: {fileID: 2031262519}
+  - component: {fileID: 2031262522}
   m_Layer: 0
   m_Name: goldCoins (37)
   m_TagString: Untagged
@@ -55564,6 +56158,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2031262517}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &2031262522
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031262517}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644897, y: 0.99906087, z: -0.446486}
 --- !u!1 &2033472520
 GameObject:
   m_ObjectHideFlags: 0
@@ -56795,6 +57402,7 @@ GameObject:
   - component: {fileID: 2113909482}
   - component: {fileID: 2113909481}
   - component: {fileID: 2113909480}
+  - component: {fileID: 2113909483}
   m_Layer: 0
   m_Name: goldCoins (11)
   m_TagString: Untagged
@@ -56874,6 +57482,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2113909478}
   m_Mesh: {fileID: 4300000, guid: e8449808043a6114eb825a7cbbf749bf, type: 3}
+--- !u!136 &2113909483
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2113909478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0332727
+  m_Height: 4.1428943
+  m_Direction: 1
+  m_Center: {x: -1.8644592, y: 0.9990151, z: -0.446486}
 --- !u!1 &2115015511
 GameObject:
   m_ObjectHideFlags: 0
