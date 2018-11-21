@@ -23,7 +23,7 @@ public class PickUp : MonoBehaviour
     public float distance;
     //variable to be adjusted to make carrying an object feel smoother
     public float smooth;
-
+    bool cooldown = false;
 
 
     // Use this for initialization
@@ -35,15 +35,18 @@ public class PickUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //If the object is being carried, check if it needs to be droped, else pick the object up if needed
-        if (carryingObject)
+        if (!cooldown)
         {
-            Carry(pickedUpObject);
-            CheckDrop();
-        }
-        else
-        {
-            Pickup();
+            //If the object is being carried, check if it needs to be droped, else pick the object up if needed
+            if (carryingObject)
+            {
+                Carry(pickedUpObject);
+                CheckDrop();
+            }
+            else
+            {
+                Pickup();
+            }
         }
 
     }
@@ -92,6 +95,7 @@ public class PickUp : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             DropObject();
+            cooldown = true;
         }
     }
 
@@ -101,6 +105,8 @@ public class PickUp : MonoBehaviour
         pickedUpObject.GetComponent<Rigidbody>().useGravity = true;//turn gravity back
         carryingObject = false;
         pickedUpObject = null;
+        cooldown = false;
+
     }
 
     public void D()
@@ -109,5 +115,8 @@ public class PickUp : MonoBehaviour
         carryingObject = false;
         pickedUpObject = null;
     }
+
+
+
 
 }
