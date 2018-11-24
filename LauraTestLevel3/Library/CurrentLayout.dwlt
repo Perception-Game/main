@@ -13,21 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 0
-    y: 43
-    width: 1920
-    height: 997
-=======
     x: 8
     y: 51
     width: 1904
     height: 981
->>>>>>> Laura_Desert
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -37,34 +30,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 814
-    y: 0
-    width: 646
-    height: 513
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
->>>>>>> Laura_Desert
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -76,15 +41,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1920
-    height: 997
-  m_MinSize: {x: 950, y: 542}
-=======
     width: 1904
     height: 981
-  m_MinSize: {x: 950, y: 300}
->>>>>>> Laura_Desert
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -122,13 +81,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 977
-    width: 1920
-=======
     y: 961
     width: 1904
->>>>>>> Laura_Desert
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -150,23 +104,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
-    width: 1920
-    height: 947
-  m_MinSize: {x: 887, y: 492}
-  m_MaxSize: {x: 16012, y: 14042}
-  vertical: 0
-  controlID: 6331
---- !u!114 &6
-=======
     width: 1904
     height: 931
-  m_MinSize: {x: 885, y: 342}
-  m_MaxSize: {x: 16010, y: 8042}
+  m_MinSize: {x: 885, y: 471}
+  m_MaxSize: {x: 16010, y: 14021}
   vertical: 0
-  controlID: 130
---- !u!114 &7
->>>>>>> Laura_Desert
+  controlID: 3333
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -184,23 +128,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1233
-    height: 947
-  m_MinSize: {x: 610, y: 492}
-  m_MaxSize: {x: 12010, y: 14042}
-  vertical: 1
-  controlID: 6332
---- !u!114 &7
-=======
-    width: 1460
+    width: 1277
     height: 931
-  m_MinSize: {x: 610, y: 342}
-  m_MaxSize: {x: 12010, y: 8042}
+  m_MinSize: {x: 608, y: 471}
+  m_MaxSize: {x: 12008, y: 14021}
   vertical: 1
-  controlID: 131
---- !u!114 &8
->>>>>>> Laura_Desert
+  controlID: 3334
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -219,23 +153,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1233
-    height: 572
-  m_MinSize: {x: 610, y: 221}
-  m_MaxSize: {x: 12010, y: 4021}
+    width: 1277
+    height: 563
+  m_MinSize: {x: 608, y: 221}
+  m_MaxSize: {x: 12008, y: 4021}
   vertical: 0
-  controlID: 6333
+  controlID: 3335
 --- !u!114 &8
-=======
-    width: 1460
-    height: 513
-  m_MinSize: {x: 610, y: 221}
-  m_MaxSize: {x: 12010, y: 4021}
-  vertical: 0
-  controlID: 132
---- !u!114 &9
->>>>>>> Laura_Desert
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -251,9 +175,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 408
-    height: 572
+    width: 319
+    height: 563
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
@@ -275,18 +198,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 408
+    x: 319
     y: 0
-    width: 291
-    height: 572
+    width: 316
+    height: 563
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-=======
-    width: 254
-    height: 513
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
->>>>>>> Laura_Desert
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -307,17 +224,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 699
+    x: 635
     y: 0
-    width: 534
-    height: 572
-=======
-    x: 254
-    y: 0
-    width: 560
-    height: 513
->>>>>>> Laura_Desert
+    width: 642
+    height: 563
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 13}
@@ -340,32 +250,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 572
-    width: 1233
-    height: 375
+    y: 563
+    width: 1277
+    height: 368
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 17}
-=======
-    y: 513
-    width: 1460
-    height: 418
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
->>>>>>> Laura_Desert
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
-<<<<<<< HEAD
   m_Selected: 0
-  m_LastSelected: 1
-=======
-  - {fileID: 19}
-  m_Selected: 1
   m_LastSelected: 0
->>>>>>> Laura_Desert
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,34 +275,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1233
+    x: 1277
     y: 0
-    width: 687
-    height: 947
+    width: 627
+    height: 931
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
-=======
-    x: 1460
-    y: 0
-    width: 444
-    height: 931
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
->>>>>>> Laura_Desert
   m_Panes:
   - {fileID: 19}
-  - {fileID: 20}
-<<<<<<< HEAD
-  m_Selected: 0
-  m_LastSelected: 1
-=======
-  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 0
->>>>>>> Laura_Desert
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -416,35 +294,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 360, y: 390}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Lighting
-    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 1462
-    y: 19
-    width: 442
-    height: 910
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
->>>>>>> Laura_Desert
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -459,19 +308,11 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 701
-    y: 92
-    width: 530
-    height: 551
-  m_MaximizeOnPlay: 1
-=======
-    x: 824
+    x: 645
     y: 100
-    width: 642
-    height: 492
-  m_MaximizeOnPlay: 0
->>>>>>> Laura_Desert
+    width: 638
+    height: 542
+  m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -479,17 +320,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-<<<<<<< HEAD
-    m_HBaseRangeMin: -265
-    m_HBaseRangeMax: 265
-    m_VBaseRangeMin: -267
-    m_VBaseRangeMax: 267
-=======
-    m_HBaseRangeMin: -321
-    m_HBaseRangeMax: 321
-    m_VBaseRangeMin: -237.5
-    m_VBaseRangeMax: 237.5
->>>>>>> Laura_Desert
+    m_HBaseRangeMin: -319
+    m_HBaseRangeMax: 319
+    m_VBaseRangeMin: -262.5
+    m_VBaseRangeMax: 262.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -506,43 +340,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-<<<<<<< HEAD
-      width: 530
-      height: 534
+      width: 638
+      height: 525
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 265, y: 267}
-=======
-      width: 642
-      height: 475
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 321, y: 237.5}
->>>>>>> Laura_Desert
+    m_Translation: {x: 319, y: 262.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-      x: -265
-      y: -267
-      width: 530
-      height: 534
-=======
-      x: -321
-      y: -237.5
-      width: 642
-      height: 475
->>>>>>> Laura_Desert
+      x: -319
+      y: -262.5
+      width: 638
+      height: 525
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-<<<<<<< HEAD
-  m_LastWindowPixelSize: {x: 530, y: 551}
-=======
-  m_LastWindowPixelSize: {x: 642, y: 492}
->>>>>>> Laura_Desert
+  m_LastWindowPixelSize: {x: 638, y: 542}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -568,46 +384,26 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 0
-    y: 92
-    width: 406
-    height: 551
+    x: 8
+    y: 100
+    width: 317
+    height: 542
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 365ffbffa294fbff9a2efcff9c2efcffc439fcffa83bfcff3093fcffe4a0fcffd6d7fcfff80dfdffa822fdff3830fdffb03ffdffda55fdfff6b1feff9ab2feff3ebcfeff0203ffffaa40ffff6856ffff000000008c710000eee9000006ec0000b82d0100565c0100bc5c0100
+    m_SelectedIDs: 16520000
+    m_LastClickedID: 21014
+    m_ExpandedIDs: 6866feff9c6dfeff2a70feff58f5ffff00000000704d00000c520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
       m_OriginalName: 
-=======
-    x: 8
-    y: 100
-    width: 252
-    height: 492
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 533}
-    m_SelectedIDs: 026f0000
-    m_LastClickedID: 28418
-    m_ExpandedIDs: e259ffff865affff00000000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: Yellow_Barrel_01
-      m_OriginalName: Yellow_Barrel_01
->>>>>>> Laura_Desert
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-<<<<<<< HEAD
       m_UserData: 0
-=======
-      m_UserData: 28418
->>>>>>> Laura_Desert
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 11
@@ -615,11 +411,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-<<<<<<< HEAD
-  - Level1
-=======
-  - Desert
->>>>>>> Laura_Desert
+  - Main_Menu
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -642,41 +434,26 @@ MonoBehaviour:
     m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 0
+  m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 410
-    y: 92
-    width: 287
-    height: 551
-  m_SceneLighting: 1
-  lastFramingTime: 7660.559867826087
-=======
-    x: 264
+    x: 329
     y: 100
-    width: 556
-    height: 492
+    width: 312
+    height: 542
   m_SceneLighting: 1
-  lastFramingTime: 10863.227941679592
->>>>>>> Laura_Desert
+  lastFramingTime: 292.2576709469939
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: 204.50002, y: 200.5, z: 63.64277}
+    m_Target: {x: 570.19995, y: 262.5, z: 0}
     speed: 2
-    m_Value: {x: 204.50002, y: 200.5, z: 63.64277}
-=======
-    m_Target: {x: 159.99953, y: 4.9995084, z: 170.89958}
-    speed: 2
-    m_Value: {x: 159.99953, y: 4.9995084, z: 170.89958}
->>>>>>> Laura_Desert
+    m_Value: {x: 570.19995, y: 262.5, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
-    showFog: 0
+    showFog: 1
     showMaterialUpdate: 0
     showSkybox: 1
     showFlares: 1
@@ -695,29 +472,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-<<<<<<< HEAD
-    m_Target: {x: -0.076617405, y: 0.9233364, z: -0.27082643, w: -0.26121435}
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
-    m_Value: {x: -0.0766174, y: 0.92333627, z: -0.2708264, w: -0.26121432}
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 517.5791
+    m_Target: 975.45483
     speed: 2
-    m_Value: 517.5791
-=======
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-    speed: 2
-    m_Value: {x: -0.7071069, y: 0, z: 0, w: -0.7071069}
-  m_Size:
-    m_Target: 4.9676385
-    speed: 2
-    m_Value: 4.9676385
->>>>>>> Laura_Desert
+    m_Value: 975.45483
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -745,10 +512,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 491
-    y: 99
-    width: 470
-    height: 680
+    x: 468
+    y: 181
+    width: 973
+    height: 501
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -771,17 +538,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 0
-    y: 664
-    width: 1231
-    height: 354
-=======
     x: 8
-    y: 613
-    width: 1458
-    height: 397
->>>>>>> Laura_Desert
+    y: 663
+    width: 1275
+    height: 347
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -794,35 +554,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-<<<<<<< HEAD
-    - Assets/Pause
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Pause
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\SeniorProject_Game\steve\main\LauraTestLevel3
-  m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 13}
-    m_SelectedIDs: ee690000
-    m_LastClickedID: 27118
-    m_ExpandedIDs: d065000000ca9a3bffffff7f
-=======
-    - Assets/Scripts
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\My_Designs\main\LauraTestLevel3
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 260}
-    m_SelectedIDs: 706b0000
-    m_LastClickedID: 27504
-    m_ExpandedIDs: 1c650000e8660000fe680000ec690000e46c000000ca9a3bffffff7f
->>>>>>> Laura_Desert
+    scrollPos: {x: 0, y: 310}
+    m_SelectedIDs: ec460000
+    m_LastClickedID: 18156
+    m_ExpandedIDs: 00000000ca3b0000de3e000002430000dc440000184a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -838,7 +582,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -850,7 +594,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: d065000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000ca3b0000de3e000002430000dc440000184a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -875,16 +619,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-=======
-    m_SelectedInstanceIDs: 026f0000
-    m_LastClickedInstanceID: 28418
-    m_HadKeyboardFocusLastEvent: 1
->>>>>>> Laura_Desert
-    m_ExpandedInstanceIDs: c623000000000000
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -900,7 +638,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -910,7 +648,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
-  m_DirectoriesAreaWidth: 279
+  m_DirectoriesAreaWidth: 115
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -933,19 +671,11 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 0
-    y: 518
-    width: 1116
-    height: 500
---- !u!114 &19
-=======
     x: 8
-    y: 613
-    width: 1458
-    height: 397
---- !u!114 &20
->>>>>>> Laura_Desert
+    y: 718
+    width: 1366
+    height: 308
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -967,47 +697,14 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1235
-    y: 92
-    width: 685
-    height: 926
-=======
-    x: 1470
+    x: 1287
     y: 100
-    width: 442
+    width: 625
     height: 910
->>>>>>> Laura_Desert
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
-    m_CachedPref: 126
+    m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 360, y: 390}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Lighting
-    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 1235
-    y: 92
-    width: 685
-    height: 926
