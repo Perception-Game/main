@@ -23,9 +23,10 @@ public class YellowGlow : MonoBehaviour
     {
         //check if object is close
        float distance = Vector3.Distance(transform.position, yellowObject.transform.position);//calculate distance between spot and object
+        float xdistance = (yellowSpot.position.x - yellowObject.transform.position.x);
 
         //check if yellow is in place
-        if ((yellowObject.transform.position.y >= yellowSpot.position.y) && (yellowObject.transform.position.x >= yellowSpot.position.x) && (distance < 3f) )
+        if ((yellowObject.transform.position.y >= yellowSpot.position.y) && (xdistance <2) && (distance < 3f) )
         {
             Behaviour halo = (Behaviour)gameObject.GetComponent("Halo");
             halo.enabled = true; //enable the yellow glow

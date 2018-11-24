@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: 43ebe54e3bd650e4bafc2ad1928a5592
 folderAsset: yes
+<<<<<<< HEAD
 timeCreated: 1542306093
+=======
+timeCreated: 1543077463
+>>>>>>> Laura_Desert
 licenseType: Free
 DefaultImporter:
   externalObjects: {}

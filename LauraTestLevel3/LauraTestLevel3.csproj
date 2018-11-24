@@ -77,6 +77,18 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
+=======
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/amorosol0/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/amorosol0/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+>>>>>>> Laura_Desert
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="LauraTestLevel3.Plugins.csproj">
@@ -101,9 +113,9 @@
     <Compile Include="Assets\Cave\Scripts\RockDrop.cs" />
     <Compile Include="Assets\Cave\Scripts\RoomFillLava.cs" />
     <Compile Include="Assets\Cave\Scripts\Swim.cs" />
-    <Compile Include="Assets\Door.cs" />
     <Compile Include="Assets\Kyle&apos;s Assets\Door_.cs" />
     <Compile Include="Assets\Kyle&apos;s Assets\Slide_.cs" />
+    <Compile Include="Assets\Pause\MainMenuReturn.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -152,13 +164,16 @@
     <Compile Include="Assets\Scripts\BlueGlow.cs" />
     <None Include="Assets\RocksPack\README.txt" />
     <Compile Include="Assets\Scripts\ChangeToNight.cs" />
+    <Compile Include="Assets\Scripts\DecreaseMassPickupable.cs" />
     <Compile Include="Assets\Scripts\DesertChangeLevel.cs" />
     <Compile Include="Assets\Scripts\DesertPuzzle.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\HitGroundSound.cs" />
     <Compile Include="Assets\Scripts\LevelChanger.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />
     <Compile Include="Assets\Scripts\Pickupable.cs" />
+    <Compile Include="Assets\Scripts\PickUpIncreaseMass.cs" />
     <Compile Include="Assets\Scripts\RedGlow.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\SunIsClose.cs" />
