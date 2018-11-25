@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/**
+ * Zach Curll
+ * 
+ * Script that drops a rock to a specific point once a player collides with a location
+ * It also plays a sound that replicates a cave in
+ * 
+ * */
 public class RockDrop : MonoBehaviour {
 
    // public Vector3 pos;
