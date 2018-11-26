@@ -20,9 +20,10 @@ public class RedGlow : MonoBehaviour {
 	void Update () {
         //check if object is close
         float distance = Vector3.Distance(transform.position, redObject.transform.position);//calculate distance between spot and object
-       
+        float xdistance = (redSpot.position.x - redObject.transform.position.x);
+
         //check if red is in place
-        if ((redObject.transform.position.y >= redSpot.position.y) && (redObject.transform.position.x >= redSpot.position.x) && (distance < 3f))
+        if ((redObject.transform.position.y >= redSpot.position.y) && (xdistance < 2) && (distance < 3f))
         {
             Behaviour halo = (Behaviour)gameObject.GetComponent("Halo");
             halo.enabled = true; //enable the red glow
