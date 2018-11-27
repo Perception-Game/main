@@ -14,7 +14,7 @@ public class Place_Stairs : MonoBehaviour {
     {
         if (other.tag == "Rock")
         {
-            Instantiate(stairs, new Vector3(276.84f, 174.0f, 145.22f), placeStairs.transform.rotation);
+             Instantiate(stairs, new Vector3(276.84f, 173.7f, 145.22f), placeStairs.transform.rotation);
         }
 
         

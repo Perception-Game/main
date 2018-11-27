@@ -19,7 +19,7 @@ public class OpenChest : MonoBehaviour {
             Animator open = chest.GetComponent<Animator>();
             open.enabled = true;
             GameObject key = GameObject.FindGameObjectWithTag("Key");
-            pick.DropObject();
+           
             Destroy(key);
 
         }
