@@ -223,6 +223,7 @@
     <Compile Include="Assets\Castle\Scripts\OpenChest.cs" />
     <Compile Include="Assets\Castle\Scripts\OpenGate.cs" />
     <Compile Include="Assets\Castle\Scripts\Place_Stairs.cs" />
+    <Compile Include="Assets\Castle\Scripts\Reset.cs" />
     <Compile Include="Assets\Castle\torch\scripts\Torchelight.cs" />
     <Compile Include="Assets\Cave\Scripts\ChangeGravity.cs" />
     <Compile Include="Assets\Cave\Scripts\ChangeUnderLava.cs" />
