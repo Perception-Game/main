@@ -11,7 +11,7 @@ public class Reset : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            Application.LoadLevel(Application.loadedLevel);
+            Application.LoadLevel(Application.loadedLevel);             //If the player presses 'r', then the whole level will reload
         }
     }
 }

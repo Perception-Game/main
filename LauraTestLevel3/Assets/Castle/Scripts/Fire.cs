@@ -14,7 +14,7 @@ public class Fire : MonoBehaviour {
     {
         if (other.tag == "Fire")
         {
-            Destroy(gameObject);
+            Destroy(gameObject);            //Destroys this game object if "fire" touches it
         }
 
     }

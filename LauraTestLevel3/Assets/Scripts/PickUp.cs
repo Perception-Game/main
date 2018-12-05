@@ -23,7 +23,7 @@ public class PickUp : MonoBehaviour
     public float distance;
     //variable to be adjusted to make carrying an object feel smoother
     public float smooth;
-    bool pick = false;
+    bool pick = false;                          //This is to make sure that the player is not able to pick something up while they're trying to drop it
 
 
     // Use this for initialization
@@ -54,8 +54,8 @@ public class PickUp : MonoBehaviour
     //Carry an object
     void Carry(GameObject o)
     {
-        if (pickedUpObject == null)
-            D();
+        if (pickedUpObject == null)  //This is to check if the item that they are supposed to be carrying was deleted
+            D();  //If it was then it will do this method
         o.GetComponent<Rigidbody>().useGravity = false;//Added to remove gravity gliches on object 
         o.transform.position = Vector3.Lerp(o.transform.position, mainCamera.transform.position + mainCamera.transform.forward * distance, Time.deltaTime * smooth);
     }
@@ -108,7 +108,7 @@ public class PickUp : MonoBehaviour
         pick = false;
     }
 
-    public void D()
+    public void D()     //This is the same as DropObject, the only difference is that it won't turn the gravity back on because the object has been deleted
     {
 
         carryingObject = false;
