@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/**
+ * Resets the player to checkpoint 2 if they fail the the second rock puzzle and fall into the lava.
+ * If the player fails 5 times the level will reset and the player will be placed
+ * at the start.
+ * lava - GameObject that will be the lava that is below the player.
+ * Checkpoint - The place that marks the checkpoint that the character will be reset to.
+ * 
+ * */
 public class ResetCharacterCheckPointTwo : MonoBehaviour {
 
 	public GameObject lava;

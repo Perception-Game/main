@@ -2,6 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/**
+ * Adds the rock puzzle to the scene once the player brings the bucket to the lion statue.
+ * The rock puzzle will allow the player to reach the upper part of the cave which
+ * leads to the exit.
+ * Rock1-Rock8 : Game objects (rocks) that will be used in the puzzle.
+ * 
+ * */
+
 public class RockPuzzleAppear : MonoBehaviour {
 
 
@@ -30,6 +39,8 @@ public class RockPuzzleAppear : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{   
+		//Checks if the bucket is placed near the lion statue
+		//If it is it calls AddRocks()
 		distance = Vector3.Distance(sphere.transform.position, lion.transform.position);
 
 		if (distance < minDistance)
@@ -37,7 +48,8 @@ public class RockPuzzleAppear : MonoBehaviour {
 			AddRocks();
 		}
 	}
-		
+
+	//Rocks are placed in their appriorate place.
 	public void AddRocks()
 	{
 		rock1.transform.position = new Vector3(-869.71f, 248.26f, -144.75f);
