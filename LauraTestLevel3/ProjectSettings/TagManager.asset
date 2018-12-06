@@ -22,6 +22,7 @@ TagManager:
   - Dragon2
   - Fire
   - Floor
+  - Barrel
   layers:
   - Default
   - TransparentFX

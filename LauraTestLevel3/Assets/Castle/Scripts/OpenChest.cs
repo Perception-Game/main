@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class OpenChest : MonoBehaviour {
 
-    GameObject chest;
-    public PickUp pick;
+    GameObject chest;                               //This is the chest
+                      
     // Use this for initialization
     void Start () {
-        chest = GameObject.FindGameObjectWithTag("Chest");
+        chest = GameObject.FindGameObjectWithTag("Chest");          //Finds the chest object in the scene
 	}
 
     // Update is called once per frame
@@ -16,11 +16,10 @@ public class OpenChest : MonoBehaviour {
     {
         if (other.tag == "Key")
         {
-            Animator open = chest.GetComponent<Animator>();
-            open.enabled = true;
-            GameObject key = GameObject.FindGameObjectWithTag("Key");
-           
-            Destroy(key);
+            Animator open = chest.GetComponent<Animator>();                 //Finds the animation of the chest opening
+            open.enabled = true;                                            //Starts the animation of the chest opening
+            GameObject key = GameObject.FindGameObjectWithTag("Key");       //Finds the key game object
+            Destroy(key);                                                   //Deletes the key game object
 
         }
 
