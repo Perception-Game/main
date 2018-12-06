@@ -123,12 +123,12 @@ Prefab:
     - target: {fileID: 224330870058279444, guid: 9db132ec143c3f0489e4dde0d3d9ff09,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 355
+      value: 440.5
       objectReference: {fileID: 0}
     - target: {fileID: 224330870058279444, guid: 9db132ec143c3f0489e4dde0d3d9ff09,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 266
+      value: 229
       objectReference: {fileID: 0}
     - target: {fileID: 224330870058279444, guid: 9db132ec143c3f0489e4dde0d3d9ff09,
         type: 2}
@@ -218,12 +218,12 @@ Prefab:
     - target: {fileID: 224220427336409686, guid: 9db132ec143c3f0489e4dde0d3d9ff09,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 55.223297
+      value: -19.075378
       objectReference: {fileID: 0}
     - target: {fileID: 224279154591748058, guid: 9db132ec143c3f0489e4dde0d3d9ff09,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 92.2233
+      value: 17.924622
       objectReference: {fileID: 0}
     - target: {fileID: 223506612094623690, guid: 9db132ec143c3f0489e4dde0d3d9ff09,
         type: 2}
@@ -1244,6 +1244,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a71bb8de070055e48bebae5d8e2e1b6c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &168685898 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1848801055599540, guid: a71bb8de070055e48bebae5d8e2e1b6c,
+    type: 2}
+  m_PrefabInternal: {fileID: 168685897}
+--- !u!114 &168685899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 168685898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165600f5a97ef4e43ac154b8514b033f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &188977888 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1158419739545872, guid: 682768b9e639d664c9300ba33ee514b5,
@@ -2960,12 +2976,12 @@ Prefab:
     - target: {fileID: 224879400744366066, guid: efa94f7bf5a1dd54894a3b7a4be802be,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 412
+      value: 497.5
       objectReference: {fileID: 0}
     - target: {fileID: 224879400744366066, guid: efa94f7bf5a1dd54894a3b7a4be802be,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 267
+      value: 230
       objectReference: {fileID: 0}
     - target: {fileID: 224879400744366066, guid: efa94f7bf5a1dd54894a3b7a4be802be,
         type: 2}

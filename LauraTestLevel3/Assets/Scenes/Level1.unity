@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38715485, g: 0.4464243, b: 0.5165794, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -140,7 +140,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 167090415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 243.01886, z: -0.000029846045}
+  m_LocalPosition: {x: 0, y: 24.924622, z: -0.000029846045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1964294260}
@@ -328,7 +328,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 228172054}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 236.01886, z: 0}
+  m_LocalPosition: {x: 0, y: 17.924622, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1964294260}
@@ -598,7 +598,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 1174283905}
   m_GameObject: {fileID: 328746061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 265, y: 267, z: 0}
+  m_LocalPosition: {x: 497.5, y: 230, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1926820846}
@@ -1008,6 +1008,7 @@ GameObject:
   - component: {fileID: 895564429}
   - component: {fileID: 895564434}
   - component: {fileID: 895564435}
+  - component: {fileID: 895564436}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1276,6 +1277,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distance: 3
   smooth: 6
+--- !u!114 &895564436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 895564428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165600f5a97ef4e43ac154b8514b033f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1174283905
 Prefab:
   m_ObjectHideFlags: 0
@@ -1909,7 +1921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portal: {fileID: 1529756365}
-  nextLvl: Cave
+  nextLvl: Mountain_Level
 --- !u!114 &1529756371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5882,8 +5894,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1964294259}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 53.039978, y: 266, z: 215.00003}
-  m_LocalScale: {x: 0.66250014, y: 0.6625, z: 0.66250014}
+  m_LocalPosition: {x: 53.039948, y: 229, z: 447.50006}
+  m_LocalScale: {x: 1.2437502, y: 1.24375, z: 1.2437502}
   m_Children:
   - {fileID: 228172055}
   - {fileID: 167090416}

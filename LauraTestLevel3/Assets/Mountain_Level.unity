@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2676,6 +2676,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distance: 3
   smooth: 6
+--- !u!114 &1149304234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1149304232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165600f5a97ef4e43ac154b8514b033f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1226815058 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 8a51868a9df3cb740a34bddb9236a5c0, type: 3}
@@ -3971,6 +3982,7 @@ GameObject:
   - component: {fileID: 1599313909}
   - component: {fileID: 1599313908}
   - component: {fileID: 1599313907}
+  - component: {fileID: 1599313912}
   m_Layer: 0
   m_Name: Exit
   m_TagString: Untagged
@@ -4038,7 +4050,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1599313906}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -4064,6 +4076,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: -23.133001, z: -90.00001}
+--- !u!114 &1599313912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1599313906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f77ecce78f1af41a506a49414eccf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portal: {fileID: 1599313906}
+  nextLvl: Cave
 --- !u!1 &1604258848
 GameObject:
   m_ObjectHideFlags: 0

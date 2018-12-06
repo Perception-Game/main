@@ -9056,7 +9056,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 139048647}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 56.216187, z: 0}
+  m_LocalPosition: {x: 0, y: 17.924622, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1393474152}
@@ -10963,7 +10963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8980aa7892a467246afc810b14166831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pick: {fileID: 1071250963}
 --- !u!23 &274849952
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18855,7 +18854,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 807313710}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 469.5, y: 262, z: 0}
+  m_LocalPosition: {x: 497.5, y: 230, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1568896299}
@@ -19769,7 +19768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portal: {fileID: 875344389}
-  nextLvl: Mountain_Level
+  nextLvl: End Credits
 --- !u!1 &878104701
 GameObject:
   m_ObjectHideFlags: 0
@@ -21104,7 +21103,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 936635041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 22.216187, z: 0}
+  m_LocalPosition: {x: 0, y: -16.075378, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1393474152}
@@ -26168,12 +26167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2a8cc04cfc01544a824f54a97619339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1071250963 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114682568352338908, guid: 5e9e851c0e142814dac026a256ba2ac0,
-    type: 2}
-  m_PrefabInternal: {fileID: 1532855820}
-  m_Script: {fileID: 11500000, guid: 2e45a1482ac1d6945b5a54cc957e9aeb, type: 3}
 --- !u!1 &1076443245
 GameObject:
   m_ObjectHideFlags: 0
@@ -26406,7 +26399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b255237f8a112e41a67b7961e5f872e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pick: {fileID: 1071250963}
 --- !u!54 &1087363376
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28118,7 +28110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8980aa7892a467246afc810b14166831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pick: {fileID: 0}
 --- !u!23 &1247227745
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36887,8 +36878,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1393474151}
   m_LocalRotation: {x: -0.0072176056, y: -0.70706993, z: 0.0072176056, w: 0.70706993}
-  m_LocalPosition: {x: 149.05928, y: 109.03443, z: 181.12216}
-  m_LocalScale: {x: 1.3791445, y: 1.379145, z: 1.379145}
+  m_LocalPosition: {x: 149.05928, y: 72.114174, z: 214.78258}
+  m_LocalScale: {x: 1.4613936, y: 1.4613942, z: 1.4613943}
   m_Children:
   - {fileID: 139048648}
   - {fileID: 936635042}
