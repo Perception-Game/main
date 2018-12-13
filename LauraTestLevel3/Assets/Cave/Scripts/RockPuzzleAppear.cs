@@ -13,7 +13,7 @@ using UnityEngine;
 
 public class RockPuzzleAppear : MonoBehaviour {
 
-
+	public GameObject lava;
 	private GameObject player;
 	public GameObject sphere;
 	public GameObject rock1;
@@ -52,6 +52,7 @@ public class RockPuzzleAppear : MonoBehaviour {
 	//Rocks are placed in their appriorate place.
 	public void AddRocks()
 	{
+		lava.transform.position = new Vector3(900f, 900f, 900f);
 		rock1.transform.position = new Vector3(-869.71f, 248.26f, -144.75f);
 		rock2.transform.position = new Vector3(-873.06f, 249.46f, -146.58f);
 		rock3.transform.position = new Vector3(-880.45f, 250.54f, -143.82f);
