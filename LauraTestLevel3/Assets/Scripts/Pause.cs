@@ -35,6 +35,8 @@ public class Pause : MonoBehaviour
     }
     private void PauseGame()
     {
+		Cursor.visible = true;
+		Cursor.lockState = CursorLockMode.None;
         pausePanel.SetActive(true);
      
         Time.timeScale = 0;//timescale is set to 0 to diable scripts
@@ -45,6 +47,8 @@ public class Pause : MonoBehaviour
     }
     private void ContinueGame()
     {
+		Cursor.visible = false;
+		Cursor.lockState = CursorLockMode.Confined;
         pausePanel.SetActive(false);
         Time.timeScale = 1; //scripts work again
         
