@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,8 +24,8 @@ public class PickUpIncreaseMass : MonoBehaviour
 	public float distance;
 	//variable to be adjusted to make carrying an object feel smoother
 	public float smooth;
+	bool pick = false;
 	float currMass;
-
 
 
 	// Use this for initialization
@@ -36,15 +37,18 @@ public class PickUpIncreaseMass : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		//If the object is being carried, check if it needs to be droped, else pick the object up if needed
-		if (carryingObject)
+		if (!pick)
 		{
-			Carry(pickedUpObject);
-			CheckDrop();
-		}
-		else
-		{
-			Pickup();
+			//If the object is being carried, check if it needs to be droped, else pick the object up if needed
+			if (carryingObject)
+			{
+				Carry(pickedUpObject);
+				CheckDrop();          
+			}
+			else
+			{
+				Pickup();
+			}
 		}
 
 	}
@@ -52,6 +56,8 @@ public class PickUpIncreaseMass : MonoBehaviour
 	//Carry an object
 	void Carry(GameObject o)
 	{
+		if (pickedUpObject == null)
+			D();
 		o.GetComponent<Rigidbody>().useGravity = false;//Added to remove gravity gliches on object 
 		o.transform.position = Vector3.Lerp(o.transform.position, mainCamera.transform.position + mainCamera.transform.forward * distance, Time.deltaTime * smooth);
 	}
@@ -77,16 +83,12 @@ public class PickUpIncreaseMass : MonoBehaviour
 					currMass = p.GetComponent<Rigidbody>().mass ;
 					p.GetComponent<Rigidbody> ().mass = currMass / 1000f;
 
-
 					float armLength = 5; // the arm length of the character, or where the object travels to after grabbing
 					float dis = Vector3.Distance(p.transform.position, transform.position);//this calculates the distnce the object is from the player
 					dis = (1f / (dis * .3f));//You're goig to scale the object by this number
 					p.transform.localScale = p.transform.localScale * dis;//Actually scaling the object
 					carryingObject = true;
 					pickedUpObject = p.gameObject;
-
-
-
 
 				}
 			}
@@ -98,6 +100,7 @@ public class PickUpIncreaseMass : MonoBehaviour
 	{
 		if (Input.GetKeyDown(KeyCode.E))
 		{
+			pick = true;
 			DropObject();
 		}
 	}
@@ -109,7 +112,18 @@ public class PickUpIncreaseMass : MonoBehaviour
 		pickedUpObject.GetComponent<Rigidbody> ().mass = currMass;
 		carryingObject = false;
 		pickedUpObject = null;
-
-
+		pick = false;
 	}
+
+	public void D()
+	{
+
+		carryingObject = false;
+		pickedUpObject = null;
+		pick = false;
+	}
+
+
+
+
 }

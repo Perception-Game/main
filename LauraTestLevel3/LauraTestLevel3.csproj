@@ -232,16 +232,20 @@
     <Compile Include="Assets\Castle\Scripts\OpenChest.cs" />
     <Compile Include="Assets\Castle\Scripts\OpenGate.cs" />
     <Compile Include="Assets\Castle\Scripts\Place_Stairs.cs" />
+    <Compile Include="Assets\Castle\Scripts\Reset.cs" />
     <Compile Include="Assets\Castle\torch\scripts\Torchelight.cs" />
     <Compile Include="Assets\Cave\Scripts\ChangeGravity.cs" />
     <Compile Include="Assets\Cave\Scripts\ChangeUnderLava.cs" />
     <Compile Include="Assets\Cave\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Cave\Scripts\FillRoomLava.cs" />
     <Compile Include="Assets\Cave\Scripts\ResetCharacter.cs" />
+    <Compile Include="Assets\Cave\Scripts\ResetCharacterCheckPointTwo.cs" />
     <Compile Include="Assets\Cave\Scripts\ResetCharCheckPointOne.cs" />
     <Compile Include="Assets\Cave\Scripts\RockDrop.cs" />
+    <Compile Include="Assets\Cave\Scripts\RockPuzzleAppear.cs" />
     <Compile Include="Assets\Cave\Scripts\RoomFillLava.cs" />
     <Compile Include="Assets\Cave\Scripts\Swim.cs" />
+    <Compile Include="Assets\Cave\Scripts\TestSwim.cs" />
     <Compile Include="Assets\Door.cs" />
     <Compile Include="Assets\Kyle&apos;s Assets\Door_.cs" />
     <Compile Include="Assets\Kyle&apos;s Assets\Slide_.cs" />
@@ -306,6 +310,13 @@
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\SunIsClose.cs" />
     <Compile Include="Assets\Scripts\YellowGlow.cs" />
+    <Compile Include="Assets\Steve&apos;s Assets\chop_tree.cs" />
+    <Compile Include="Assets\Steve&apos;s Assets\create_bridge.cs" />
+    <Compile Include="Assets\Steve&apos;s Assets\Key_Placed.cs" />
+    <Compile Include="Assets\Steve&apos;s Assets\open_wall.cs" />
+    <Compile Include="Assets\Steve&apos;s Assets\Teleport.cs" />
+    <Compile Include="Assets\Steve&apos;s Assets\Wheel_Spin.cs" />
+    <Compile Include="Assets\Steve&apos;s Assets\WheelPush.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Castle\3DForge\Fantasy_Interiors\Villages_&amp;_Towns\Documents\Village_Interiors_User_Guid_v1.3.txt" />

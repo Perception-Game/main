@@ -8,16 +8,16 @@ public class Button : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        wall = GameObject.FindGameObjectWithTag("Wall");
+        wall = GameObject.FindGameObjectWithTag("Wall");     //Finds the wall object to get to the next room
     }
 
     // Update is called once per frame
     public void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player")              //if the player hits this object
         {
-            Destroy(wall);
-            Destroy(gameObject);
+            Destroy(wall);                      //delete the wall
+            Destroy(gameObject);                //delete this object
         }
             
 

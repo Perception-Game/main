@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+/**
+ * Drops a rock, blocking the players path once the player enters the room.
+ * Rock - The game object that will be used to block the players path.
+ * CaveIn - Sound played to make it sound like a cave in.
+ * 
+ * */
 public class RockDrop : MonoBehaviour {
 
    // public Vector3 pos;

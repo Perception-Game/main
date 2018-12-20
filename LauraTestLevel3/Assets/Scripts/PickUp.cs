@@ -23,7 +23,7 @@ public class PickUp : MonoBehaviour
     public float distance;
     //variable to be adjusted to make carrying an object feel smoother
     public float smooth;
-
+    bool pick = false;                          //This is to make sure that the player is not able to pick something up while they're trying to drop it
 
 
     // Use this for initialization
@@ -35,15 +35,18 @@ public class PickUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //If the object is being carried, check if it needs to be droped, else pick the object up if needed
-        if (carryingObject)
+        if (!pick)
         {
-            Carry(pickedUpObject);
-            CheckDrop();
-        }
-        else
-        {
-            Pickup();
+            //If the object is being carried, check if it needs to be droped, else pick the object up if needed
+            if (carryingObject)
+            {
+                Carry(pickedUpObject);
+                CheckDrop();          
+            }
+            else
+            {
+                Pickup();
+            }
         }
 
     }
@@ -51,6 +54,8 @@ public class PickUp : MonoBehaviour
     //Carry an object
     void Carry(GameObject o)
     {
+        if (pickedUpObject == null)  //This is to check if the item that they are supposed to be carrying was deleted
+            D();  //If it was then it will do this method
         o.GetComponent<Rigidbody>().useGravity = false;//Added to remove gravity gliches on object 
         o.transform.position = Vector3.Lerp(o.transform.position, mainCamera.transform.position + mainCamera.transform.forward * distance, Time.deltaTime * smooth);
     }
@@ -89,6 +94,7 @@ public class PickUp : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
+            pick = true;
             DropObject();
         }
     }
@@ -99,5 +105,18 @@ public class PickUp : MonoBehaviour
         pickedUpObject.GetComponent<Rigidbody>().useGravity = true;//turn gravity back
         carryingObject = false;
         pickedUpObject = null;
+        pick = false;
     }
+
+    public void D()     //This is the same as DropObject, the only difference is that it won't turn the gravity back on because the object has been deleted
+    {
+
+        carryingObject = false;
+        pickedUpObject = null;
+        pick = false;
+    }
+
+
+
+
 }
